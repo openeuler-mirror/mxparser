@@ -1,6 +1,6 @@
 Name:           mxparser
 Version:        1.2.1
-Release:        1
+Release:        2
 License:        Lab Software License
 Summary:        MXParser is a fork of xpp3_min 1.1.7 containing only the parser with merged changes of the Plexus fork.
 URL:            http://x-stream.github.io/mxparser
@@ -37,5 +37,8 @@ mvn install --settings ./settings.xml -Dmaven.test.skip=true
 %files help -f .mfiles-javadoc
 
 %changelog
+* Wed Jul 21 2021 lingsheng <lingsheng@huawei.com> - 1.2.1-2
+- Change maven repository to huawei cloud
+
 * Tue Apr 13 2021 wutao <wutao61@huawei.com> - 1.2.1-1
 - package init

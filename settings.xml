@@ -4,10 +4,10 @@
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <mirrors>
     <mirror>
-      <id>aliyun-central</id>
-      <mirrorOf>*</mirrorOf>
-      <name>aliyun central</name>
-      <url>https://maven.aliyun.com/repository/central</url>
+      <id>huaweicloud</id>
+      <mirrorOf>central</mirrorOf>
+      <name>central repo</name>
+      <url>https://mirrors.huaweicloud.com/repository/maven/</url>
     </mirror>
     </mirrors>
  </settings>
